@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20250314114605_AddTableInit.cs" />
+    <Compile Remove="Migrations\20250314114605_AddTableInit.Designer.cs" />
+    <Compile Remove="Migrations\20250314115710_AddModifingInit.cs" />
+    <Compile Remove="Migrations\20250314115710_AddModifingInit.Designer.cs" />
+    <Compile Remove="Migrations\20250314120136_AddModifyingInit.cs" />
+    <Compile Remove="Migrations\20250314120136_AddModifyingInit.Designer.cs" />
+    <Compile Remove="Migrations\20250314120516_AddTablesInit.cs" />
+    <Compile Remove="Migrations\20250314120516_AddTablesInit.Designer.cs" />
+    <Compile Remove="Migrations\20250314121226_AddTablesInit.cs" />
+    <Compile Remove="Migrations\20250314121226_AddTablesInit.Designer.cs" />
+    <Compile Remove="Migrations\20250314121851_AddUsersInit.cs" />
+    <Compile Remove="Migrations\20250314121851_AddUsersInit.Designer.cs" />
+    <Compile Remove="Migrations\20250314122440_AddAccountInit.cs" />
+    <Compile Remove="Migrations\20250314122440_AddAccountInit.Designer.cs" />
+    <Compile Remove="Migrations\20250314123525_Initial.cs" />
+    <Compile Remove="Migrations\20250314123525_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20250314125101_Initial.cs" />
+    <Compile Remove="Migrations\20250314125101_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20250314125418_Initially.cs" />
+    <Compile Remove="Migrations\20250314125418_Initially.Designer.cs" />
+    <Compile Remove="Migrations\20250315053827_CredentialTables.cs" />
+    <Compile Remove="Migrations\20250315053827_CredentialTables.Designer.cs" />
+    <Compile Remove="Migrations\20250315131002_AddingBankTables.cs" />
+    <Compile Remove="Migrations\20250315131002_AddingBankTables.Designer.cs" />
+    <Compile Remove="Migrations\20250315132553_Initial.cs" />
+    <Compile Remove="Migrations\20250315132553_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20250315141317_Initial.cs" />
+    <Compile Remove="Migrations\20250315141317_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20250315142059_Initial.cs" />
+    <Compile Remove="Migrations\20250315142059_Initial.Designer.cs" />
+    <Compile Remove="Models\Account\Accounts.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>
